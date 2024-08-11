@@ -1,5 +1,8 @@
 body{
     background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 .custom-background{
     background-color: #F5F5F5;
@@ -9,11 +12,7 @@ body{
     margin: 0;
 }
 
-.hero{
-    background-image: url('img/hero-img.png');
-    height: 800px;
-    width: 100%;
-}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -64,10 +63,11 @@ nav{
 
 /* MOCKUP */
 .mockup1, .mockup2, .mockup3, .mockup4{
-   
+   display: flex;
     align-items: center;
     background-color: #F5F5F5;
     margin: 80px 0px 100px 140px;
+    margin-right: 0;
 }
 
 .text h1, .text p{
